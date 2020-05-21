@@ -7,3 +7,12 @@ pull_request_rules:
         message: 'This PR has passed CI and will be closed'
       label:
         add: ['Approved for Badge']
+        remove: ['Failing Tests']
+  - name: Comment when CI fails
+    conditions:
+      - 'status-failure=ci/circleci: test'
+    actions:
+      comment:
+        message: 'Looks like there is an error with the test files...'
+      label:
+        add: ['Failing Tests']

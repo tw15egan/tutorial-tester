@@ -13,8 +13,6 @@ Get started by visiting the
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
-EDIT
-
 ### `npm start`
 
 Runs the app in the development mode.<br> Open

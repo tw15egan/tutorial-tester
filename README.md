@@ -1,4 +1,4 @@
-## Carbon Tutorial
+## Carbon Tutorial Take 2
 
 This tutorial will guide you in creating a React app with the
 [Carbon Design System](https://www.carbondesignsystem.com/). We’ll teach you the
